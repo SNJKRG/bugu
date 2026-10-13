@@ -211,7 +211,9 @@ a { color: inherit; text-underline-offset: .2em; }
     left: clamp(calc(100vw - var(--h) * 1.7768), calc(50vw - var(--fx) * var(--h) * 1.7768), 0px);
     mask-image: linear-gradient(to bottom, transparent, #000 22%);
   }
-  .carved { position: static; translate: none; rotate: -2deg; display: flex; flex-wrap: wrap; gap: 10px 12px; margin-bottom: 14px; }
+  /* under the title, cut into the empty wall above the drawing */
+  .copy--2 { display: flex; flex-direction: column; }
+  .carved { order: 1; position: static; translate: none; rotate: -2deg; display: flex; flex-wrap: wrap; gap: 10px 12px; margin-top: 7svh; }
   .carved .lettering, .carved .lettering:nth-child(n) { height: 26px; translate: none; rotate: none; }
   .scard, .scard--left, .scard--right {
     left: var(--gutter); right: calc(var(--gutter) + 60px); bottom: 14px; width: auto; max-width: none;
