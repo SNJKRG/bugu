@@ -197,16 +197,31 @@ function TransitionVideo({ src, q, opacity }: { src: string; q: MotionValue<numb
   const glows = [useRef<HTMLSpanElement>(null), useRef<HTMLSpanElement>(null)];
   const track = useRef<Track | null>(null);
   const raf = useRef(0);
+  const want = useRef(0);
   useEffect(() => {
     fetch(src.replace(/\.mp4$/, '.json')).then((r) => (r.ok ? r.json() : null)).then((j) => { track.current = j?.frames ?? null; }).catch(() => {});
   }, [src]);
+  // iOS neither buffers a video nor draws seeked frames until it has played once: play a moment, then pause.
+  // Low Power Mode allows that only inside a tap, so try again on the first touch.
+  useEffect(() => {
+    const prime = () => { const v = ref.current; v?.play().then(() => v.pause(), () => {}); };
+    prime();
+    addEventListener('touchend', prime, { once: true });
+    return () => removeEventListener('touchend', prime);
+  }, []);
+  // one seek at a time: a new one while the last is running makes mobile Safari restart and show nothing
+  const seek = () => {
+    const v = ref.current;
+    if (v && !v.seeking && Math.abs(v.currentTime - want.current) > 0.02) v.currentTime = want.current;
+  };
   useMotionValueEvent(q, 'change', (p) => {
     cancelAnimationFrame(raf.current);
     raf.current = requestAnimationFrame(() => {
       const v = ref.current;
       if (!v || !v.duration) return;
       const t = Math.min(1, Math.max(0, (p - FADE_IN[0]) / (FADE_IN[1] - FADE_IN[0])));
-      v.currentTime = t * (v.duration - 0.05);
+      want.current = t * (v.duration - 0.05);
+      seek();
       const fr = track.current?.[Math.round(t * (track.current.length - 1))];
       if (!fr) return;
       glows.forEach((g, k) => {
@@ -221,7 +236,7 @@ function TransitionVideo({ src, q, opacity }: { src: string; q: MotionValue<numb
   });
   return (
     <>
-      <motion.video ref={ref} className="frame__video" style={{ opacity }} src={src} muted playsInline preload="auto" onError={(e) => e.currentTarget.remove()} />
+      <motion.video ref={ref} className="frame__video" style={{ opacity }} src={src} muted playsInline preload="auto" onSeeked={seek} onError={(e) => e.currentTarget.remove()} />
       <motion.span className="ember-wrap" style={{ opacity }}>
         {glows.map((g, k) => <span key={k} ref={g} className="ember-wrap" style={{ opacity: 0 }}><span className="ember" /></span>)}
       </motion.span>
