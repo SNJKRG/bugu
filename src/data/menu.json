@@ -1,0 +1,863 @@
+{
+  "source": "https://restaurantguru.com/Bugu-Bishkek/menu",
+  "accessed": "2026-10-13",
+  "currency": "KGS",
+  "items": [
+    {
+      "category": "Блюда на гриле",
+      "name": "Bugu бургер",
+      "price": "620с",
+      "description": "Сочный бургер с котлетой  из говядины,яйцом,свежими овощами и фирменным перечным соусом. Подаётся в ароматной булочке, приготовленной на основе кыргызского хлеба.\nИзображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": null,
+      "source_marks_ai_image": true
+    },
+    {
+      "category": "Блюда на гриле",
+      "name": "Говядина на гриле",
+      "price": "680с",
+      "description": "Сочная говядина, промаринованная и приготовленная на гриле. Подаётся с яркой сальсой, которая добавляет свежести и лёгкого пикантного вкуса. Зелёная аджика подчёркивает мясо и делает блюдо ещё интереснее. На гарнир — ароматный хлеб из печи",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-menu-urk.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-menu-urk.jpg"
+    },
+    {
+      "category": "Блюда на гриле",
+      "name": "Говяжье ребро на гриле",
+      "price": "1450с",
+      "description": "Сочное говяжье ребро, приготовленное на гриле. Подаётся с запечённым картофелем, который приобретает хрустящую корочку и мягкую текстуру внутри. Украшено тёртым сыром, придающим блюду сливочный вкус. Горная трава джамбул добавляет характерный аромат",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-uoq.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-uoq.jpg"
+    },
+    {
+      "category": "Блюда на гриле",
+      "name": "Каре ягнёнка",
+      "price": "1250с",
+      "description": "Нежное каре ягнёнка подается с мягким картофельным пюре и насыщенным пикантным соусом — классика с ярким акцентом. Изображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": null,
+      "source_marks_ai_image": true
+    },
+    {
+      "category": "Блюда на гриле",
+      "name": "Люля из говядины",
+      "price": "680с",
+      "description": "Сочное блюдо из рублёной говядины с добавлением бараньего жира и восточных специй. Подаётся с нежным соусом на основе сузьмы, что придаёт ему особый вкус.\nИзображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Restaurant-menu-p2m.jpg",
+      "source_marks_ai_image": true,
+      "image_file": "menu-images/Bugu-Restaurant-menu-p2m.jpg"
+    },
+    {
+      "category": "Блюда на гриле",
+      "name": "Рибай на кости",
+      "price": "1980с",
+      "description": "Сочный рибай на кости с аппетитной корочкой. Подаётся с маринованными огурцами, которые придают лёгкую кислинку. Красный лук добавляет сладость и пикантность, а микс зелени вносит свежесть в каждый кусочек",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Блюда на гриле",
+      "name": "Рубленая конина",
+      "price": "650с",
+      "description": "Сочное мясо с насыщенным вкусом подаётся с ароматными соусами и тёплой выпечкой. Контраст текстур и яркие овощные акценты создают гармоничное сочетание. Подходит для сытного и выразительного приёма пищи",
+      "image_url": "https://menu.restaurantguru.com/m0/Restaurant-Bugu-menu-89d.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Restaurant-Bugu-menu-89d.jpg"
+    },
+    {
+      "category": "Блюда на гриле",
+      "name": "Сет мини бургеров",
+      "price": "980с",
+      "description": "Мини-бургер с кониной, Мини бургер с курицей, Мини-бургер с говядиной, картофель фри (3 шт.)",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Блюда на гриле",
+      "name": "Стейк Ти-бон",
+      "price": "1980с",
+      "description": "Сочный стейк ти-бон с приятной корочкой. Подаётся с маринованными огурцами, которые добавляют лёгкую кислинку. Красный лук придаёт сладость и яркость, а микс зелени вносит свежесть в каждый кусочек",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Restaurant-1r7.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-Restaurant-1r7.jpg"
+    },
+    {
+      "category": "Блюда на гриле",
+      "name": "Стейк из языка с картофельной эспумой",
+      "price": "1150с",
+      "description": "Подаётся с шампиньонами, шпинатом и соусом жу",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Restaurant-Bugu-oq2.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Restaurant-Bugu-oq2.jpg"
+    },
+    {
+      "category": "Блюда на гриле",
+      "name": "Филе курицы",
+      "price": "620с",
+      "description": "Сочное куриное филе, обжаренное до золотистой корочки. Подаётся с яркой сальсой, которая добавляет свежести и лёгкости. Зелёная аджика придаёт блюду пикантную нотку. На гарнир — ароматный хлеб из печи",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Bishkek-menu-e9k.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-Bishkek-menu-e9k.jpg"
+    },
+    {
+      "category": "Блюда на гриле",
+      "name": "Форель на гриле",
+      "price": "690с",
+      "description": "Нежная форель, приготовленная на гриле. Подаётся с сальсой, которая придаёт свежесть вкусу. Зелёная аджика добавляет лёгкую остроту и подчёркивает вкус рыбы. На гарнир — ароматный хлеб из печи",
+      "image_url": "https://menu.restaurantguru.com/m0/Bishkek-Bugu-menu-79r.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bishkek-Bugu-menu-79r.jpg"
+    },
+    {
+      "category": "Выпечка",
+      "name": "Боорсок",
+      "price": "140с",
+      "description": "Блюдо в виде небольших кусочков дрожжевого теста, обжариваемых во фритюре до золотистого цвета",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Bishkek-3sw.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-Bishkek-3sw.jpg"
+    },
+    {
+      "category": "Выпечка",
+      "name": "Закрытая лепешка с начинкой в печи",
+      "price": "800с",
+      "description": "Лепёшка, приготовленная в печи, источает тёплый аромат. Хрустящая корочка снаружи и нежная начинка внутри создают идеальное сочетание текстур. Томатный соус и сары май гармонично дополняют вкус томлёной говядины и фермерского сыра. Зелёная аджика при",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bishkek-Bugu-3s1.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bishkek-Bugu-3s1.jpg"
+    },
+    {
+      "category": "Выпечка",
+      "name": "Каттама с каймаком",
+      "price": "360с",
+      "description": "Мягкое тесто с нежной текстурой, дополненное бархатистым вкусом каймака. Простота сочетания подчёркивает деликатные сливочные ноты, создавая уютное и сытное блюдо. Изображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": null,
+      "source_marks_ai_image": true
+    },
+    {
+      "category": "Выпечка",
+      "name": "Кыргыз нан",
+      "price": "200с",
+      "description": "Пищевой продукт, получаемый при выпечке теста",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-menu-6pl-1.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-menu-6pl-1.jpg"
+    },
+    {
+      "category": "Выпечка",
+      "name": "Пицца Пепперони",
+      "price": "690с",
+      "description": "Хрустящая пицца с тонким тестом, щедро покрытая расплавленным сыром и ломтиками пикантной колбасы. Сырная тягучесть удачно дополняет остроту колбасы, а золотистая корочка теста придаёт блюду аппетитный вид и завершённый вкус. Изображение товара созда",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Выпечка",
+      "name": "Пицца с кониной и чучуком",
+      "price": "750с",
+      "description": "Ароматная пицца на хрустящем тесте с сочными кусочками конины и пикантным чучуком. Изображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": null,
+      "source_marks_ai_image": true
+    },
+    {
+      "category": "Выпечка",
+      "name": "Самса с курицей",
+      "price": "160с",
+      "description": "Хрустящее тесто скрывает сочную начинку из курицы. Вкус блюда сочетает нежность мяса и лёгкую хрустящую текстуру",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Restaurant-menu-h4a-1.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-Restaurant-menu-h4a-1.jpg"
+    },
+    {
+      "category": "Выпечка",
+      "name": "Самсы с говядиной",
+      "price": "180с",
+      "description": "Сочная говядина с луком и специями спрятана внутри слоёного теста. Блюдо выпекается в печи, благодаря чему тесто становится хрустящим. Аромат специй пробуждает аппетит. Вкус насыщенный, с пикантной ноткой",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Выпечка",
+      "name": "Самсы с джусаем",
+      "price": "160с",
+      "description": "Хрустящее слоёное тесто с сочной начинкой из свежего джусая и ароматных специй",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Выпечка",
+      "name": "Хлебная корзина",
+      "price": "250с",
+      "description": "Пищевой продукт, получаемый при выпечке теста. Подается c соусом из взбитых масел",
+      "image_url": "https://menu.restaurantguru.com/m0/Restaurant-Bugu-menu-nm0-1.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Restaurant-Bugu-menu-nm0-1.jpg"
+    },
+    {
+      "category": "Гарниры",
+      "name": "Кукуруза",
+      "price": "250с",
+      "description": "Сочная и ароматная кукуруза, приготовленная на гриле. Зёрна сохраняют свою естественную сладость, приобретая лёгкий дымный оттенок и хрустящую текстуру",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Гарниры",
+      "name": "Овощи на гриле",
+      "price": "250с",
+      "description": "Овощи, обжаренные на гриле до лёгкой румяной корочки, с сохранением натурального вкуса и аромата.\nИзображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Restaurant-mmk-1.jpg",
+      "source_marks_ai_image": true,
+      "image_file": "menu-images/menu-Bugu-Restaurant-mmk-1.jpg"
+    },
+    {
+      "category": "Гарниры",
+      "name": "Пюре",
+      "price": "200с",
+      "description": "Универсальное блюдо, приготовленное из толченого картофеля. Обладает нежной кремообразной текстурой",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Restaurant-Bugu-vrg-1.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Restaurant-Bugu-vrg-1.jpg"
+    },
+    {
+      "category": "Гарниры",
+      "name": "Рис",
+      "price": "150с",
+      "description": "Универсальный гарнир с легким ароматом и нейтральным вкусом",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Гарниры",
+      "name": "Фри с пармезаном",
+      "price": "250с",
+      "description": "Картофель, нарезанный брусочками, обжарен до золотистой корочки. Сверху посыпается пармезаном, который придаёт солоноватый вкус и аппетитный аромат",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Bishkek-menu-139-1.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-Bishkek-menu-139-1.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Ак-кеме",
+      "price": "2000с",
+      "description": "Сибас подаётся с нежным шпинатным соусом. К рыбе добавлены хрустящие чипсы из пармезана. В качестве гарнира — картофельный гратен. Сочетание текстур и вкусов создаёт гармоничное впечатление",
+      "image_url": "https://menu.restaurantguru.com/m0/Bishkek-Bugu-menu-zkf-1.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bishkek-Bugu-menu-zkf-1.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Баранья лопатка",
+      "price": "4750с",
+      "description": "Сочная баранья лопатка с нежными овощами, которые добавляют хруст и лёгкость. Соус жу подчёркивает вкус мяса, придавая ему глубину. Подается с ароматным хлебом из печи. (на 2-3 персоны)",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Bishkek-kbr-1.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-Bishkek-kbr-1.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Баранья рулька",
+      "price": "1750с",
+      "description": "Сочное мясо с насыщенным вкусом. Запечённые овощи добавляют блюду нежности и аромата. Картофель хорошо пропечён и впитывает вкус соуса. Соус пелати придаёт лёгкую кислинку. Баранья рулька — сытное и ароматное блюдо.\nИзображение товара создано нейросе",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bishkek-Bugu-c5t-1.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bishkek-Bugu-c5t-1.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Баранья рулька запечённая в глине",
+      "price": "1500с",
+      "description": "Сочная баранья рулька, запечённая в глине, раскрывает глубокий мясной вкус и нежную текстуру. Подаётся с картофелем, помидорами черри, соусом демиглас и сырным муссом",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Билерик",
+      "price": "1190с",
+      "description": "Сочная говядина заворачивается в слоёное тесто. Внутри — нежная начинка из шпината и грибов. Блюдо дополняется соусом жу, который придаёт ему особый вкус",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-menu-mdc-2.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-menu-mdc-2.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Говяжьи щечки",
+      "price": "890с",
+      "description": "Нежная говядина тает во рту, добавляя блюду изысканность. Паста орзо придаёт текстуру и гармонично сочетается с мясом. Маринованный красный лук добавляет лёгкую кислинку и яркость вкусу",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-klm-2.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-klm-2.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Гульчатай с быжы",
+      "price": "1050с",
+      "description": "Блюдо сочетает нежное мясо говядины с домашним тестом. Овощи — морковь и запечённый картофель — добавляют текстуру и сладковатые нотки. Говяжий бульон придаёт насыщенности, а соус чык вносит пикантные акценты. Микс зелени освежает вкус и дополняет ар",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Жайма с рваным мясом говядины",
+      "price": "890с",
+      "description": "Блюдо, в котором пшеничная лапша гармонично сочетается с нежным мясом. Всё это дополняется сливочным соусом и сырным муссом, что придаёт блюду насыщенный вкус и кремовую текстуру.\nИзображение товара создано нейросетью и может отличаться от настоящего",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Restaurant-menu-6u4-2.jpg",
+      "source_marks_ai_image": true,
+      "image_file": "menu-images/Bugu-Restaurant-menu-6u4-2.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Кесе Куурдак",
+      "price": "1150с",
+      "description": "Нежная баранина тушится с луком и картофелем до мягкости. Сверху покрывает слой тонкого теста, удерживая аромат и соки внутри. Блюдо сочетает в себе насыщенный вкус и аппетитный аромат",
+      "image_url": "https://menu.restaurantguru.com/m0/Restaurant-Bugu-menu-c1m-2.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Restaurant-Bugu-menu-c1m-2.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Куурдак",
+      "price": "850с",
+      "description": "Баранина, нарезанная небольшими кусочками, тушится до мягкости. Картофель, впитавший в себя аромат мяса, становится нежным и сочным. Блюдо насыщает и согревает, радует традиционными вкусами",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Restaurant-it1-2.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-Restaurant-it1-2.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Лапша с говядиной",
+      "price": "790с",
+      "description": "Нежная говядине гармонично сочетается со шпинатной лапшой. Овощи придают блюду свежесть и лёгкость, а соус дапанджи — насыщенный вкус и аромат",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Restaurant-Bugu-sco-2.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Restaurant-Bugu-sco-2.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Лапша с курицей и грибами",
+      "price": "650с",
+      "description": "Нежная яичная лапша в сливочном соусе. Курица и шампиньоны придают блюду насыщенный вкус. Домашний сыр добавляет аппетитную сливочность и аромат",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Bishkek-menu-qo6-2.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-Bishkek-menu-qo6-2.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Нео-Беш",
+      "price": "1050с",
+      "description": "Томлёная говядина и конина обладают насыщенным вкусом и мягкой текстурой. Чучук добавляет пряные нотки, а домашнее тесто создаёт приятную структуру блюда. Соус чык гармонично дополняет вкусовую палитру",
+      "image_url": "https://menu.restaurantguru.com/m0/Bishkek-Bugu-menu-ebq-2.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bishkek-Bugu-menu-ebq-2.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Трио котлет",
+      "price": "890с",
+      "description": "Нежные котлеты из трёх видов мяса — конины, курицы и говядины. Каждая котлета имеет свою текстуру и вкус, но вместе они создают гармоничное сочетание",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Bishkek-r86-2.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-Bishkek-r86-2.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Фермерский цыпленок",
+      "price": "710с",
+      "description": "Сочный фермерский цыплёнок, маринованный и приготовленный до золотистой корочки. Подаётся с ароматным соусом чимичури, который добавляет яркие нотки вкуса. Рядом — запечённый картофель, мягкий и нежный. Свежая зелень придаёт блюду свежесть и лёгкость",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bishkek-Bugu-fhl-2.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bishkek-Bugu-fhl-2.jpg"
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Форель в кляре",
+      "price": "850с",
+      "description": "Форель обжарена в хрустящем кляре. Рыба получается сочной внутри, а внешняя оболочка придаёт ей аппетитную текстуру. Вкус форели гармонично сочетается с лёгкостью кляра. Блюдо оставляет приятное послевкусие. Изображение товара создано нейросетью и мо",
+      "image_url": null,
+      "source_marks_ai_image": true
+    },
+    {
+      "category": "Горячие блюда",
+      "name": "Форель запеченная в глине",
+      "price": "890с",
+      "description": "Нежная форель сохраняет все соки и ароматы при запекании в глине. Рыба имеет лёгкий, изысканный вкус и буквально тает во рту",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-menu-79r-3.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-menu-79r-3.jpg"
+    },
+    {
+      "category": "Горячие закуски",
+      "name": "Баклажан с томатами и сыром",
+      "price": "580с",
+      "description": "Запечённый баклажан с ароматной подушкой из копчёных томатов, стружкой тунца и сочными черри — яркое сочетание насыщенных и свежих вкусов",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-l1f-3.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-l1f-3.jpg"
+    },
+    {
+      "category": "Горячие закуски",
+      "name": "Жупка с рваным мясом",
+      "price": "750с",
+      "description": "Тушёное блюдо с мягким и сочным мясом, которое подаётся с соусом сальса и зеленью.\nИзображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Restaurant-menu-hk3-3.jpg",
+      "source_marks_ai_image": true,
+      "image_file": "menu-images/Bugu-Restaurant-menu-hk3-3.jpg"
+    },
+    {
+      "category": "Горячие закуски",
+      "name": "Костной мозг",
+      "price": "1250с",
+      "description": "Нежный костный мозг на ароматном хлебе на закваске, дополненный свежей зелёной аджикой и насыщенным лечо. Пикантный соус придаёт блюду глубокий, выразительный вкус и тонкую остроту",
+      "image_url": "https://menu.restaurantguru.com/m0/Restaurant-Bugu-menu-63v-3.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Restaurant-Bugu-menu-63v-3.jpg"
+    },
+    {
+      "category": "Горячие закуски",
+      "name": "Очок",
+      "price": "320с",
+      "description": "Нежный и мягкий картофель, запечённый до золотистой корочки. Внутри — воздушный сырный мусс, который придаёт блюду кремовую текстуру и насыщенный вкус",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Restaurant-roy-3.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-Restaurant-roy-3.jpg"
+    },
+    {
+      "category": "Десерты",
+      "name": "Кумтор",
+      "price": "620с",
+      "description": "Десерт сочетает текстуру выпечки с насыщенностью горького шоколада. В нём чувствуется нежная мягкость, дополненная прохладой мороженого талкан. Сливочное масло придаёт блюду бархатистость и глубину вкуса. Шоколадная основа оставляет продолжительное г",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Десерты",
+      "name": "Медовик",
+      "price": "520с",
+      "description": "Воздушные коржи с какао и мёдом, сочетаются с нежным кремом из халвы, сыра креметте, сметаны и сливок. Подается с джемом из лесных ягод, создавая идеальное сочетание сладости и свежести",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Десерты",
+      "name": "Орук зар",
+      "price": "620с",
+      "description": "Сладкий кейк‑попс сочетает текстуру нежного бисквита с хрустящими кусочками грецкого ореха. Вкусовой акцент создаёт слегка терпкий чернослив. Поверхность покрыта гладким белым шоколадом. Десерт удобно брать в руки — он оформлен в виде небольших шарик",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Десерты",
+      "name": "Тамга",
+      "price": "520с",
+      "description": "Мягкое и воздушное блюдо с тягучей сгущёнкой. Талкан придаёт текстуру и нежный ореховый привкус",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Bishkek-menu-uo2-3.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-Bishkek-menu-uo2-3.jpg"
+    },
+    {
+      "category": "Десерты",
+      "name": "Чизкейк",
+      "price": "510с",
+      "description": "Блюдо европейской и американской кухни, представляющее собой сыросодержащий десерт от творожной запеканки до суфле",
+      "image_url": "https://menu.restaurantguru.com/m0/Bishkek-Bugu-menu-pnz-3.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bishkek-Bugu-menu-pnz-3.jpg"
+    },
+    {
+      "category": "Добавки",
+      "name": "Каймак",
+      "price": "90с",
+      "description": "Домашняя сметана",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Bishkek-mys-3.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-Bishkek-mys-3.jpg"
+    },
+    {
+      "category": "Добавки",
+      "name": "Сары май",
+      "price": "90с",
+      "description": "Название сливочного масла. Оно широко используется в казахской и кыргызской кухне для приготовления различных блюд.\nИзображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bishkek-Bugu-gp7-3.jpg",
+      "source_marks_ai_image": true,
+      "image_file": "menu-images/menu-Bishkek-Bugu-gp7-3.jpg"
+    },
+    {
+      "category": "Коктейли",
+      "name": "Авторский коктейль Айыл",
+      "price": "380с",
+      "description": "Коктейль сочетает оригинальные вкусовые ноты. Кордиал из саман-чөбөгө придаёт напитку насыщенный аромат, а безакогольный джин добавляет лёгкую пикантность. Мусс из сүзмө вносит кремовую текстуру и смягчает вкус",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-menu-rw8-4.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-menu-rw8-4.jpg"
+    },
+    {
+      "category": "Коктейли",
+      "name": "Авторский коктейль Мурас",
+      "price": "380с",
+      "description": "Коктейль сочетает фруктовость и нежность. Кордиал из фейхоа и ванили придаёт аромат и лёгкую кислинку, а безалкогольный джин добавляет пикантные нотки. Безалкогольное вино вносит глубину, яблочный сок — освежающую лёгкость",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-a8e-4.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-a8e-4.jpg"
+    },
+    {
+      "category": "Напитки",
+      "name": "Coca-Cola",
+      "price": "180с",
+      "description": "Освежающий газированный напиток",
+      "image_url": "https://menu.restaurantguru.com/m7/menu-Nirvana-Ailevi-Restoran-9py-2.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Nirvana-Ailevi-Restoran-9py-2.jpg"
+    },
+    {
+      "category": "Напитки",
+      "name": "Fanta",
+      "price": "180с",
+      "description": "Освежающий газированный напиток",
+      "image_url": "https://menu.restaurantguru.com/m0/Bishkek-Bugu-menu-aci-4.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bishkek-Bugu-menu-aci-4.jpg"
+    },
+    {
+      "category": "Напитки",
+      "name": "Sprite",
+      "price": "180с",
+      "description": "Освежающий газированный напиток",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Bishkek-ftc-4.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-Bishkek-ftc-4.jpg"
+    },
+    {
+      "category": "Напитки",
+      "name": "Арашан",
+      "price": "170с",
+      "description": "Газированный напиток с нейтральным вкусом",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bishkek-Bugu-5yt-4.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bishkek-Bugu-5yt-4.jpg"
+    },
+    {
+      "category": "Напитки",
+      "name": "Сок Santal",
+      "price": "350с",
+      "description": "Негазированный освежающий напиток",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-menu-vxw-5.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-menu-vxw-5.jpg"
+    },
+    {
+      "category": "Напитки",
+      "name": "Ыссык-Ата",
+      "price": "170с",
+      "description": "Газированный напиток с нейтральным вкусом",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-amd-5.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-amd-5.jpg"
+    },
+    {
+      "category": "Национальные напитки",
+      "name": "Домашний чалап",
+      "price": "300с",
+      "description": "Тёплый напиток с нежной текстурой. Чалап приобретает свежесть благодаря добавленной зелени, создавая лёгкое и ароматное блюдо",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Restaurant-menu-syu-5.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-Restaurant-menu-syu-5.jpg"
+    },
+    {
+      "category": "Национальные напитки",
+      "name": "Жарма",
+      "price": "300с",
+      "description": "Напиток имеет нежную текстуру. В его основе — талкан и мука. Вкус сдержанный, с лёгкими зерновыми нотами. Хорошо утоляет жажду. Изображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": null,
+      "source_marks_ai_image": true
+    },
+    {
+      "category": "Национальные напитки",
+      "name": "Кымыз",
+      "price": "500с",
+      "description": "Напиток с освежающим вкусом. Обладает лёгкими кисловатыми нотками и пряным ароматом. Кымыз создаёт особое впечатление своей уникальной свежестью",
+      "image_url": "https://menu.restaurantguru.com/m0/Restaurant-Bugu-menu-to6-5.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Restaurant-Bugu-menu-to6-5.jpg"
+    },
+    {
+      "category": "Национальные напитки",
+      "name": "Таруу Бозо",
+      "price": "300с",
+      "description": "Традиционный напиток, приготовленный на основе крупы и угута. Изображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": null,
+      "source_marks_ai_image": true
+    },
+    {
+      "category": "Салаты",
+      "name": "Бугу",
+      "price": "750с",
+      "description": "Копчёная конина придаёт салату глубокий и насыщенный вкус. Свёкла и брокколи вносят яркость и обогащают блюдо витаминами. Лёгкий тыквенный соус гармонично объединяет вкусовые оттенки, а микс салатов делает блюдо свежим и воздушным",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Restaurant-t3h-5.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-Restaurant-t3h-5.jpg"
+    },
+    {
+      "category": "Салаты",
+      "name": "Жалын",
+      "price": "650с",
+      "description": "Острый салат с телятиной, свежими овощами и сладким перцем. Яркий, сочный и пикантный",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Restaurant-Bugu-dr0-5.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Restaurant-Bugu-dr0-5.jpg"
+    },
+    {
+      "category": "Салаты",
+      "name": "Жашылча",
+      "price": "750с",
+      "description": "Лёгкий и свежий салат сочетает в себе брокколи и стручковую фасоль. Авокадо на гриле придаёт блюду нежность, а зелёное яблоко добавляет приятную кислинку. Всё это гармонично сочетается с микс-салатами и соусом цитронет на основе лайма и орехов",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Bishkek-menu-frw-5.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-Bishkek-menu-frw-5.jpg"
+    },
+    {
+      "category": "Салаты",
+      "name": "Мангал салат",
+      "price": "600с",
+      "description": "Курица на гриле придаёт салату насыщенный вкус. Зелень и томаты добавляют свежесть, а запечённые овощи — сладость. Гранатовый соус объединяет все вкусы, делая блюдо гармоничным и аппетитным",
+      "image_url": "https://menu.restaurantguru.com/m0/Bishkek-Bugu-menu-hp9-5.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bishkek-Bugu-menu-hp9-5.jpg"
+    },
+    {
+      "category": "Салаты",
+      "name": "С креветками и стручковой фасолью",
+      "price": "950с",
+      "description": "Нежные креветки и свежая стручковая фасоль создают гармоничное сочетание. Яйца добавляют салату питательности, а манго-соус придаёт сладко-острый вкус. Блюдо получается лёгким и ароматным",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Bishkek-kz0-5.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-Bishkek-kz0-5.jpg"
+    },
+    {
+      "category": "Салаты",
+      "name": "Табышмак",
+      "price": "700с",
+      "description": "Изысканное сочетание микса салатов, нежного козьего сыра и свежих фруктов — хурма и яблоко. Яркость блюду придают зёрна граната и наш авторский соус из хурмы, который раскрывает вкус мягко и благородно",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bishkek-Bugu-xql-5.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bishkek-Bugu-xql-5.jpg"
+    },
+    {
+      "category": "Салаты",
+      "name": "Фермерский",
+      "price": "600с",
+      "description": "Свежие помидоры и огурцы создают основу салата. Мягкий сыр фета добавляет кремовости, а маринованный красный лук — пикантности. Греческий соус объединяет ингредиенты, придавая блюду яркий вкус",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-menu-wxe-6.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-menu-wxe-6.jpg"
+    },
+    {
+      "category": "Салаты",
+      "name": "Шаркыратма",
+      "price": "750с",
+      "description": "Сочный салат с рваной говядиной ,свежим миксом зелени,томатами  и грибами. Нежный картофельный мусс придаёт текстуре воздушность. Лёгкий, но сытный салат с ярким вкусом.\nИзображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-6vd-6.jpg",
+      "source_marks_ai_image": true,
+      "image_file": "menu-images/menu-Bugu-6vd-6.jpg"
+    },
+    {
+      "category": "Салаты",
+      "name": "Ыштуу",
+      "price": "600с",
+      "description": "Салат с ароматным миксом из говядины и конины, дополненный печёной свеклой, морковью, хрустящим картофелем пай и грецкими орехами.\nИзображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Restaurant-menu-t8b-6.jpg",
+      "source_marks_ai_image": true,
+      "image_file": "menu-images/Bugu-Restaurant-menu-t8b-6.jpg"
+    },
+    {
+      "category": "Свежевыжатые соки",
+      "name": "Апельсин",
+      "price": "420с",
+      "description": "Негазированный освежающий напиток",
+      "image_url": "https://menu.restaurantguru.com/m0/Restaurant-Bugu-menu-o2p-6.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Restaurant-Bugu-menu-o2p-6.jpg"
+    },
+    {
+      "category": "Свежевыжатые соки",
+      "name": "Грейпфрут",
+      "price": "420с",
+      "description": "Негазированный освежающий напиток",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Restaurant-uqq-6.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-Restaurant-uqq-6.jpg"
+    },
+    {
+      "category": "Свежевыжатые соки",
+      "name": "Морковь",
+      "price": "320с",
+      "description": "Негазированный освежающий напиток",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Bishkek-menu-e7m-6.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-Bishkek-menu-e7m-6.jpg"
+    },
+    {
+      "category": "Свежевыжатые соки",
+      "name": "Морс Лесные ягоды",
+      "price": "300с",
+      "description": "Освежающий напиток из смеси лесных ягод с ярким кисло-сладким вкусом и ароматом. Отлично утоляет жажду и придаёт лёгкую ягодную свежесть. Изображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": null,
+      "source_marks_ai_image": true
+    },
+    {
+      "category": "Свежевыжатые соки",
+      "name": "Морс клюквенный",
+      "price": "300с",
+      "description": "Освежающий напиток с насыщенным вкусом спелой клюквы и приятной кислинкой. Отлично утоляет жажду, тонизирует и подходит как дополнение к любым блюдам. Изображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": null,
+      "source_marks_ai_image": true
+    },
+    {
+      "category": "Свежевыжатые соки",
+      "name": "Яблоко",
+      "price": "380с",
+      "description": "Негазированный освежающий напиток",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bishkek-Bugu-3cy-6.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bishkek-Bugu-3cy-6.jpg"
+    },
+    {
+      "category": "Супы",
+      "name": "Апакемдин колунан",
+      "price": "650с",
+      "description": "Домашнее блюдо с нежной телятиной, подаётся в ароматном говяжьем бульоне с зеленью и домашним тестом",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-vrf-7.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-vrf-7.jpg"
+    },
+    {
+      "category": "Супы",
+      "name": "Куугум",
+      "price": "550с",
+      "description": "Сытное блюдо с насыщенным вкусом и мягкой текстурой. Сочетание мяса, теста и овощей создаёт гармоничный и сбалансированный результат. Подходит для полноценного и домашнего приёма пищи. Изображение товара создано нейросетью и может отличаться от насто",
+      "image_url": null,
+      "source_marks_ai_image": true
+    },
+    {
+      "category": "Супы",
+      "name": "Кыргызское шорпо",
+      "price": "680с",
+      "description": "Насыщенный бульон с нежными кусочками говяжьего брискета, дополненный мягкостью картофеля и сладостью моркови. Гармоничное сочетание ингредиентов создаёт сытное и уютное блюдо с тёплыми домашними нотами. Изображение товара создано нейросетью и может",
+      "image_url": null,
+      "source_marks_ai_image": true
+    },
+    {
+      "category": "Супы",
+      "name": "Номад",
+      "price": "850с",
+      "description": "Сытное блюдо с насыщенным вкусом и выразительным ароматом. Сочетание горячего супа и дополнительных элементов создаёт многослойную и оригинальную подачу. Подходит для плотного и согревающего приёма пищи",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Restaurant-menu-4q3-7.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-Restaurant-menu-4q3-7.jpg"
+    },
+    {
+      "category": "Супы",
+      "name": "Тушпара с голяшкой из баранины",
+      "price": "980с",
+      "description": "Сочный фарш из баранины в небольших пельменях. Овощи и нут придают блюду насыщенность. Зелень добавляет свежести. Тушпара подаётся в ароматном бульоне, который гармонично дополняет вкус",
+      "image_url": "https://menu.restaurantguru.com/m0/Restaurant-Bugu-menu-pyk-7.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Restaurant-Bugu-menu-pyk-7.jpg"
+    },
+    {
+      "category": "Супы",
+      "name": "Уха",
+      "price": "580с",
+      "description": "Нежный сливочный бульон с лёгкой сладостью овощей и сочными кусочками форели. Яркий и идеально сбалансированный вкус без тяжести.",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Restaurant-66n-7.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-Restaurant-66n-7.jpg"
+    },
+    {
+      "category": "Холодные закуски",
+      "name": "Ассорти мезе",
+      "price": "380с",
+      "description": "Лёгкие и ароматные закуски представлены в гармонии вкусов. Нежный хумус с изысканным вкусом дополнен соусами из баклажана и перца. Каждый соус раскрывает свои оттенки, создавая интересное сочетание",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Restaurant-Bugu-z68-7.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Restaurant-Bugu-z68-7.jpg"
+    },
+    {
+      "category": "Холодные закуски",
+      "name": "Ассорти солений",
+      "price": "490с",
+      "description": "Свежие маринованные огурцы, помидоры и чесночные стрелки — яркое и насыщенное сочетание натуральных вкусов",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-Bishkek-menu-1tm-7.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-Bishkek-menu-1tm-7.jpg"
+    },
+    {
+      "category": "Холодные закуски",
+      "name": "Быжы с Ак-Серке",
+      "price": "600с",
+      "description": "Нежная печень с ароматным рисом, луком и чесноком, приправленная пряностями. Подается с освежающим Ак-серке на основе айрана, бульона и острого перца чили",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Холодные закуски",
+      "name": "Казы",
+      "price": "700с",
+      "description": "Традиционный кыргызский мясной деликатес с ароматными специями. Изображение товара создано нейросетью и может отличаться от настоящего продукта",
+      "image_url": null,
+      "source_marks_ai_image": true
+    },
+    {
+      "category": "Холодные закуски",
+      "name": "Карпаччо из форели",
+      "price": "750с",
+      "description": "Нежная форель тонко нарезана и подана в стиле карпаччо. Лёгкость и свежесть рыбы оттеняет соус на основе юдзу",
+      "image_url": "https://menu.restaurantguru.com/m0/Bishkek-Bugu-menu-ngx-7.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bishkek-Bugu-menu-ngx-7.jpg"
+    },
+    {
+      "category": "Холодные закуски",
+      "name": "Кочмон",
+      "price": "750с",
+      "description": "Нежный ростбиф из говядины идеально дополнен сальсой из томатов. Зелёная аджика придаёт пикантность, а соус тоннато добавляет насыщенность вкусу. Всё это подаётся с ароматным кочмон-нан\nИзображение товара создано нейросетью и может отличаться от нас",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-Bishkek-brd-7.jpg",
+      "source_marks_ai_image": true,
+      "image_file": "menu-images/menu-Bugu-Bishkek-brd-7.jpg"
+    },
+    {
+      "category": "Холодные закуски",
+      "name": "Набор кочевника",
+      "price": "1650с",
+      "description": "Ароматная закуска объединяет разнообразные мясные деликатесы. Нежная баранина и сочные бараньи рёбра сочетаются с говядиной и кониной. Традиционный чучук дополняет вкус мяса, создавая гармоничное сочетание",
+      "image_url": null,
+      "source_marks_ai_image": false
+    },
+    {
+      "category": "Холодные закуски",
+      "name": "Овощной сет кочевника",
+      "price": "650с",
+      "description": "Яркие овощи и свежая зелень создают лёгкую и сочную закуску. Помидоры, огурцы и болгарский перец прекрасно сочетаются с нежным сыром. Подаётся с питой и соусом айран, что дополняет освежающий вкус блюда",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bishkek-Bugu-10x-7.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bishkek-Bugu-10x-7.jpg"
+    },
+    {
+      "category": "Холодные закуски",
+      "name": "Паштет Асан-Усон",
+      "price": "420с",
+      "description": "Нежный паштет из рыбы",
+      "image_url": "https://menu.restaurantguru.com/m0/Bugu-menu-hbv-8.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/Bugu-menu-hbv-8.jpg"
+    },
+    {
+      "category": "Холодные закуски",
+      "name": "Фермерские сыры",
+      "price": "580с",
+      "description": "Мягкие и ароматные сыры разнообразят любой стол. Малосольный сыр и сыр кочевник гармонично сочетаются с сыром быштак. Свежий хлеб из печи отлично дополнит нежные вкусы. Подаётся со сладким вареньем и мёдом, что создаёт интересное сочетание",
+      "image_url": "https://menu.restaurantguru.com/m0/menu-Bugu-p7p-8.jpg",
+      "source_marks_ai_image": false,
+      "image_file": "menu-images/menu-Bugu-p7p-8.jpg"
+    }
+  ]
+}
