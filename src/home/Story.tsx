@@ -1,40 +1,103 @@
 import { createRef, useEffect, useMemo, useRef, useState, type RefObject } from 'react';
-import { motion, useMotionValueEvent, useReducedMotion, useScroll, useTransform, type MotionValue } from 'motion/react';
+import { animate, motion, useMotionValueEvent, useReducedMotion, useScroll, useTransform, type MotionValue } from 'motion/react';
 import { CHAPTERS } from '../data/copy';
 import { HIGHLIGHTS, posterSet, SCENES, type Scene } from '../data/media';
 import { CATEGORIES, DISHES, som } from '../data/menu';
 import { Lettering } from '../ui/Lettering';
 import { Icon } from '../ui/Icon';
 
-// One sticky stage with five poster layers, five 140svh chapters scrolling over it. Nothing is hijacked:
-// the native scroll position drives everything. Per chapter, q = scroll progress from "top enters viewport
-// bottom" (0) to "bottom leaves viewport top" (1). Text is fully visible while the chapter is pinned
-// (q 0.417..0.583) and the next poster fades in between texts (q 0.117..0.30 of the incoming chapter).
+// One sticky stage with five poster layers, five 140svh chapters scrolling over it. The scroll position drives
+// everything; inside the story it is paged: one wheel turn, swipe or key press flips to the next stop and the
+// flight plays out by itself. Per chapter, q = scroll progress from "top enters viewport bottom" (0) to "bottom
+// leaves viewport top" (1). Text is fully visible while the chapter is pinned (q 0.417..0.583) and the next
+// poster fades in between texts (q 0.117..0.30 of the incoming chapter).
 const FADE_IN: [number, number] = [0.117, 0.3];
 const TEXT: number[] = [0.3, 0.417, 0.583, 0.7];
+// one flip: text out, the camera flight at a watchable pace, text in (seconds)
+const FLIP = { out: 0.5, flight: 2.4, in: 0.6, plain: 1 };
 
 export function Story() {
   const refs = useMemo(() => SCENES.map(() => createRef<HTMLElement>()), []);
   const reduce = !!useReducedMotion();
-  const active = useRef(0);
+  const flip = useRef<(dir: number) => void>(() => {});
 
-  // active chapter = the one crossing the middle of the viewport
   useEffect(() => {
-    const io = new IntersectionObserver(
-      (entries) => entries.forEach((e) => { if (e.isIntersecting) active.current = refs.findIndex((r) => r.current === e.target); }),
-      { rootMargin: '-50% 0px -50% 0px' },
-    );
-    refs.forEach((r) => r.current && io.observe(r.current));
-    return () => io.disconnect();
-  }, [refs]);
+    const top = (el: Element) => el.getBoundingClientRect().top + scrollY;
+    const els = () => refs.map((r) => r.current!);
+    // stops: the middle of each chapter's pinned part (the first one from the very top), then the dishes
+    const stops = () => [0, ...els().slice(1).map((el) => top(el) + (el.offsetHeight - innerHeight) / 2), top(document.getElementById('blyuda')!)];
+    // where the flip from here goes, or undefined when the native scroll should take it (below the story)
+    const target = (dir: number) => {
+      const s = stops(), y = scrollY, last = s[s.length - 1];
+      if (y > last + 2 || (dir > 0 && y >= last - 2)) return undefined;
+      return dir > 0 ? s.find((v) => v > y + 2) : s.reverse().find((v) => v < y - 2);
+    };
+    let busy = false, held = false, lastWheel = -1e9, y0: number | null = null;
+    let anim: ReturnType<typeof animate> | undefined;
+    const go = (to: number) => {
+      const y = scrollY, lo = Math.min(y, to), hi = Math.max(y, to);
+      const onUpdate = (v: number) => scrollTo({ top: v, behavior: 'instant' });
+      busy = held = true;
+      if (reduce) { onUpdate(to); busy = false; return; }
+      const done = () => { busy = false; };
+      // the chapter whose flight lies on the way: scrub it linearly, at its own pace
+      const at = (el: HTMLElement, q: number) => top(el) - innerHeight + q * (el.offsetHeight + innerHeight);
+      const el = els().find((e, k) => k > 0 && lo < at(e, FADE_IN[0]) && at(e, FADE_IN[1]) < hi);
+      if (!el) { anim = animate(y, to, { duration: FLIP.plain, ease: [0.65, 0, 0.35, 1], onUpdate, onComplete: done }); return; }
+      const [a, b] = to > y ? [at(el, FADE_IN[0]), at(el, FADE_IN[1])] : [at(el, FADE_IN[1]), at(el, FADE_IN[0])];
+      const [d1, d3] = to > y ? [FLIP.out, FLIP.in] : [FLIP.in, FLIP.out], total = d1 + FLIP.flight + d3;
+      anim = animate(y, [y, a, b, to], {
+        duration: total, times: [0, d1 / total, (d1 + FLIP.flight) / total, 1], ease: ['easeIn', 'linear', 'easeOut'], onUpdate, onComplete: done,
+      });
+    };
+    flip.current = (dir) => { const to = target(dir); if (!busy && to !== undefined) go(to); };
 
-  // next chapter, landing in its pinned part where the text is fully shown; after the last one, the dishes
-  const next = () => {
-    const el = refs[active.current + 1]?.current;
-    const behavior = reduce ? 'auto' : 'smooth';
-    if (el) scrollTo({ top: el.getBoundingClientRect().top + scrollY + innerHeight * 0.2, behavior });
-    else document.getElementById('blyuda')?.scrollIntoView({ behavior });
-  };
+    // a trackpad keeps sending wheel events long after the flip; they belong to the same gesture
+    const onWheel = (e: WheelEvent) => {
+      if (e.ctrlKey || Math.abs(e.deltaY) < Math.abs(e.deltaX)) return;
+      if (e.timeStamp - lastWheel > 200 && !busy) held = false;
+      lastWheel = e.timeStamp;
+      if (busy || held) return e.preventDefault();
+      const to = target(Math.sign(e.deltaY));
+      if (to === undefined) return;
+      e.preventDefault();
+      go(to);
+    };
+    const onTouchStart = (e: TouchEvent) => { y0 = e.touches.length === 1 ? e.touches[0].clientY : null; };
+    const onTouchMove = (e: TouchEvent) => {
+      if (busy) return e.cancelable && e.preventDefault();
+      if (y0 === null) return;
+      const dy = y0 - e.touches[0].clientY;
+      if (!dy) return;
+      const to = target(Math.sign(dy));
+      if (to === undefined) return;
+      if (e.cancelable) e.preventDefault();
+      if (Math.abs(dy) > 24) { y0 = null; go(to); }
+    };
+    const KEYS: Record<string, number> = { ArrowDown: 1, PageDown: 1, ' ': 1, ArrowUp: -1, PageUp: -1 };
+    const onKey = (e: KeyboardEvent) => {
+      const dir = (KEYS[e.key] ?? 0) * (e.shiftKey ? -1 : 1);
+      if (!dir || e.altKey || e.ctrlKey || e.metaKey || (e.key === ' ' && e.target !== document.body)) return;
+      if ((e.target as Element).closest?.('input, textarea, select, [contenteditable]')) return;
+      if (busy) return e.preventDefault();
+      const to = target(dir);
+      if (to === undefined) return;
+      e.preventDefault();
+      go(to);
+    };
+    const opts = { passive: false };
+    addEventListener('wheel', onWheel, opts);
+    addEventListener('touchstart', onTouchStart, opts);
+    addEventListener('touchmove', onTouchMove, opts);
+    addEventListener('keydown', onKey);
+    return () => {
+      anim?.stop();
+      removeEventListener('wheel', onWheel);
+      removeEventListener('touchstart', onTouchStart);
+      removeEventListener('touchmove', onTouchMove);
+      removeEventListener('keydown', onKey);
+    };
+  }, [refs, reduce]);
 
   return (
     <section id="istoriya" className="story" aria-label="История Bugu в пяти сценах">
@@ -45,7 +108,7 @@ export function Story() {
         <div className="layers" aria-hidden="true">
           {SCENES.map((s, i) => <Layer key={s.id} scene={s} i={i} target={refs[i]} prev={refs[Math.max(0, i - 1)]} reduce={reduce} />)}
         </div>
-        <button type="button" className="next" onClick={next} aria-label="Дальше">
+        <button type="button" className="next" onClick={() => flip.current(1)} aria-label="Дальше">
           <Icon name="chevron-down" />
         </button>
       </div>

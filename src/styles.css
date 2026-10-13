@@ -21,7 +21,6 @@
   --serif: 'Cormorant Garamond', Georgia, serif;
   --sans: 'Manrope', system-ui, sans-serif;
   --header: 64px;
-  --strip: 0px;
   --gutter: clamp(16px, 4vw, 56px);
   --max: 1320px;
   --scene-filter: saturate(.5) brightness(1.3) contrast(.9);
@@ -204,14 +203,14 @@ a { color: inherit; text-underline-offset: .2em; }
 /* portrait screens: own composition. The drawing sits in the lower part with the people,
    the empty sheet above holds the text; the crop follows each scene's focus. */
 @media (max-aspect-ratio: 1/1) {
+  /* the drawing stands on the bottom edge, whole in height; the cards float over its floor */
+  .stage { container-type: size; }
   .frame {
-    --h: 52svh;
+    --h: 66cqh;
     top: auto; bottom: 0; translate: none; height: var(--h); width: auto;
     left: clamp(calc(100vw - var(--h) * 1.7768), calc(50vw - var(--fx) * var(--h) * 1.7768), 0px);
-    bottom: var(--strip);
-    mask-image: linear-gradient(to bottom, transparent, #000 24%, #000 90%, transparent);
+    mask-image: linear-gradient(to bottom, transparent, #000 22%);
   }
-  .stage, .chapter__pin { --strip: 96px; }
   .carved { position: static; translate: none; rotate: -2deg; display: flex; flex-wrap: wrap; gap: 10px 12px; margin-bottom: 14px; }
   .carved .lettering, .carved .lettering:nth-child(n) { height: 26px; translate: none; rotate: none; }
   .scard, .scard--left, .scard--right {
@@ -370,6 +369,6 @@ a { color: inherit; text-underline-offset: .2em; }
   .tabbar__key { color: #e9b98f; }
   .tabbar a[aria-current] { text-decoration: underline; text-underline-offset: .35em; }
   .tabbar :focus-visible { outline-color: var(--paper); outline-offset: -4px; }
-  .stage { height: calc(100svh - 64px - env(safe-area-inset-bottom)); }
-  .chapter__pin { height: calc(100svh - 64px - env(safe-area-inset-bottom)); }
+  /* dvh: when Safari hides its bars the scene grows with the screen instead of leaving a grey gap */
+  .stage, .chapter__pin { height: calc(100dvh - 64px - env(safe-area-inset-bottom)); }
 }
